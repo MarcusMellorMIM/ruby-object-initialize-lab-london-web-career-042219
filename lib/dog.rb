@@ -1,4 +1,5 @@
 class Dog 
+  
   attr_reador :name
   
   def initialize( name, breed="Mutt" )
