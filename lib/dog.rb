@@ -1,7 +1,8 @@
 class Dog 
-  attr_reador :breed
+  attr_reador :name, :breed
   
-  def initialize( breed="Mutt" )
+  def initialize( name, breed="Mutt" )
+    @name=name
     @breed=breed
   end
 end
